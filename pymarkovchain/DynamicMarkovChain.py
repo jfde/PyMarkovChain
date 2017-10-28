@@ -1,6 +1,6 @@
 import random
 
-from MarkovChain import MarkovChain, _wordIter, _db_factory
+from .MarkovChain import MarkovChain, _wordIter, _db_factory
 
 
 class DynamicMarkovChain(MarkovChain):
